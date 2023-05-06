@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 xls = pd.ExcelFile('imiona.xlsx')
 inform = pd.read_excel(xls)
